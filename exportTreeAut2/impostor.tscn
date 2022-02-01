@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://exportTreeAut2/result_depth.png" type="Texture" id=1]
+[ext_resource path="res://addons/octahedral_impostors/materials/shaders/ImpostorShaderLight.shader" type="Shader" id=3]
+[ext_resource path="res://exportTreeAut2/result_normal.png" type="Texture" id=4]
+[ext_resource path="res://exportTreeAut2/result_albedo.png" type="Texture" id=5]
+[ext_resource path="res://addons/octahedral_impostors/materials/shaders/ImpostorShaderShadows.shader" type="Shader" id=6]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 3 )
+shader_param/albedo = Color( 1, 1, 1, 1 )
+shader_param/specular = 0.5
+shader_param/metallic = 0.0
+shader_param/roughness = 1.0
+shader_param/imposterFrames = Vector2( 12, 12 )
+shader_param/positionOffset = Vector3( -0.00868336, 0.239532, 0.00613676 )
+shader_param/isFullSphere = true
+shader_param/alpha_clamp = 0.5
+shader_param/dither = false
+shader_param/scale = 0.423062
+shader_param/depth_scale = 1.0
+shader_param/normalmap_depth = 1.0
+shader_param/aabb_max = 0.211531
+shader_param/imposterTextureAlbedo = ExtResource( 5 )
+shader_param/imposterTextureNormal = ExtResource( 4 )
+shader_param/imposterTextureDepth = ExtResource( 1 )
+
+[sub_resource type="QuadMesh" id=2]
+material = SubResource( 1 )
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = ExtResource( 6 )
+shader_param/albedo = Color( 1, 1, 1, 1 )
+shader_param/specular = 0.5
+shader_param/metallic = 0.0
+shader_param/roughness = 1.0
+shader_param/imposterFrames = Vector2( 12, 12 )
+shader_param/positionOffset = Vector3( -0.00868336, 0.239532, 0.00613676 )
+shader_param/isFullSphere = true
+shader_param/alpha_clamp = 0.5
+shader_param/scale = 0.423062
+shader_param/depth_scale = 1.0
+shader_param/aabb_max = -0.211531
+shader_param/imposterTextureAlbedo = ExtResource( 5 )
+
+[sub_resource type="QuadMesh" id=4]
+material = SubResource( 3 )
+
+[node name="Impostor" type="Spatial"]
+
+[node name="mesh-impostor" type="MeshInstance" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="shadow-impostor" type="MeshInstance" parent="."]
+cast_shadow = 3
+mesh = SubResource( 4 )
+material/0 = null
