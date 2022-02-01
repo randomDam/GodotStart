@@ -257,8 +257,6 @@ environment = SubResource( 5 )
 transform = Transform( 0.805422, -0.435929, 0.401574, 0, 0.677531, 0.735494, -0.592702, -0.592383, 0.545698, 3.82278, 5.77905, 7.33065 )
 shadow_enabled = true
 shadow_color = Color( 0.0470588, 0.0196078, 0.219608, 1 )
-shadow_bias = 0.135
-shadow_contact = 0.658
 __meta__ = {
 "_edit_lock_": true
 }
