@@ -20,9 +20,7 @@ transform = Transform( 61.1869, 0, 0, 0, 61.1869, 0, 0, 0, 61.1869, 0, 0, 0 )
 material_override = SubResource( 2 )
 
 [node name="LOD0" parent="RootNode/Broadleaf_Hero_Field" index="0"]
-material/0 = ExtResource( 2 )
-material/1 = ExtResource( 4 )
-material/2 = ExtResource( 3 )
+use_in_baked_light = true
 
 [node name="LOD1" parent="RootNode/Broadleaf_Hero_Field" index="1"]
 visible = false

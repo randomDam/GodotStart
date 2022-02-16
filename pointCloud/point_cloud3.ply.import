@@ -1,0 +1,15 @@
+[remap]
+
+importer="pointcloud importer"
+type="ArrayMesh"
+path="res://.import/point_cloud3.ply-7ed7d10515350b8f1a7d2d74685b597b.mesh"
+
+[deps]
+
+source_file="res://pointCloud/point_cloud3.ply"
+dest_files=[ "res://.import/point_cloud3.ply-7ed7d10515350b8f1a7d2d74685b597b.mesh" ]
+
+[params]
+
+point_scale=12
+scale_factor=10

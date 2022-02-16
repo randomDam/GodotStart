@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg19580"
+   inkscape:version="1.2-dev (f22b781, 2022-01-25)"
+   sodipodi:docname="dessin.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19582"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:blackoutopacity="0.0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:deskcolor="#000000"
+     showguides="true"
+     inkscape:zoom="53.8218"
+     inkscape:cx="6.34501"
+     inkscape:cy="8.63962"
+     inkscape:window-width="2560"
+     inkscape:window-height="1381"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="8,11.8381"
+       orientation="-1,0"
+       id="guide20064"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="10.0517,8"
+       orientation="0,1"
+       id="guide20116"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs19577">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20401">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop20397" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.960753"
+         id="stop20781" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop20399" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20401"
+       id="radialGradient20403"
+       cx="8"
+       cy="8"
+       fx="8"
+       fy="8"
+       r="6.05574"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2068,4.74801e-6,-4.74797e-6,1.20679,-1.65436,-1.65439)" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:0.9802;fill:url(#radialGradient20403);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.52278;stop-color:#000000"
+       id="path20320"
+       cx="8"
+       cy="8"
+       r="7.30803"
+       inkscape:export-filename="/dataB/PROJET_2022/GodotStart/addons/PointCloudLoader/pathPlein.png"
+       inkscape:export-xdpi="656.812"
+       inkscape:export-ydpi="656.812" />
+  </g>
+</svg>

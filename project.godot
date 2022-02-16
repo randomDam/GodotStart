@@ -21,7 +21,7 @@ window/size/height=900
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/CodeSnippetPopup/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/CodeSnippetPopup/plugin.cfg", "res://addons/EditorFlyCam/plugin.cfg", "res://addons/PointCloudLoader/plugin.cfg" )
 
 [physics]
 
